@@ -8,7 +8,7 @@ class Muse < Formula
   depends_on :macos
 
   def install
-    bin.install "muse_v0.1.0_darwin_universal/mu"
+    bin.install "mu"
   end
 
   test do
